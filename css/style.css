@@ -1,0 +1,13 @@
+#smartphone-info {
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  #smartphone-info h2,
+  #smartphone-info h3 {
+    margin-top: 0;
+  }
+  
+  #smartphone-info ul {
+    padding-left: 20px;
+  }
