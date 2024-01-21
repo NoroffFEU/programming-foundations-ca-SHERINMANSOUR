@@ -1,19 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Foundations CA</title>
-
-    <script defer src="/js/example.js"></script>
-    <link href='/css/style.css' rel='stylesheet' />
-
-    <link rel='icon' href='data:;base64,=' />
+  <title>Smartphone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Programming Foundations CA</h1>
-</body>
+  <h1>Smartphone Details</h1>
+        <div class="container">
+  <div id="smartPhone-info">
+    <h2>Brand: <span id="brand"></span></h2>
+    <h2>Model: <span id="model"></span></h2>
+    <h2>Color: <span id="color"></span></h2>
+    <h2>Waterproof: <span id="waterproof"></span></h2>
+    <h2>Storage Capacity: <span id="storage"></span></h2>
+    <h2>5G: <span id="has5G"></span></h2>
+    <h2>Operating System: <span id="os"></span></h2>
+    <h2>Features:</h2>
+    <ul id="features"></ul>
+    <h2>Apps:</h2>
+    <ul id="apps"></ul>
+    <h2>Camera:</h2>
+    <h3>Camera Resolution: <span id="camera-resolution"></span></h3>
+    <h3>Triple Camera: <span id="triple-camera"></span></h3>
+    <h3>Camera Modes:</h3>
+    <ul id="camera-modes"></ul>
+    <h3>Front Camera: <span id="front-camera"></span></h3>
+  </div>
+  <div class="slideshow-container">
 
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img class="img"src="images/11PROgold.jpg"style="width="100%">
+      <div class="text">I phone 11 pro apps</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="img" src="images/BS302-G-1.jpg">
+
+      <div class="text">I phone 11 pro</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img class="img" src="images/camer.webp">
+      <div class="text">I phone camera</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script defer src="smartPhone.js"></script></body>
+</div>
 </html>
